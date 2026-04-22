@@ -8,6 +8,7 @@
 [![License](https://img.shields.io/badge/Docs-CC--BY--4.0-green)](https://creativecommons.org/licenses/by/4.0/)
 [![Status](https://img.shields.io/badge/Reference%20impl.-in%20development-orange)]()
 [![Patent](https://img.shields.io/badge/Patent-BG%2FP%2F2026%2F114317%20%7C%20PTBG202600000316742-red)]()
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Radoslavov-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=S2-iyH4AAAAJ&hl=en)
 
 ---
 
