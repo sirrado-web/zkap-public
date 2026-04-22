@@ -1,0 +1,22 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Local token files — MUST NEVER be committed
+.zenodo_token*.txt
+*.token
+*.pem
+.env
+
+# Python artefacts
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log

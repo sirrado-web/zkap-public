@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+type: software
+title: "ZKAP — Zero-Knowledge Audit Protocol"
+authors:
+  - family-names: Radoslavov
+    given-names: Radoslav Yordanov
+    orcid: "https://orcid.org/0009-0003-6868-8083"
+    affiliation: "Advanced Consulting London"
+    email: zkap@advanced-consulting.london
+license: CC-BY-4.0
+repository-code: "https://github.com/[USERNAME]/zkap-public"
+url: "https://advanced-consulting.london"
+abstract: >-
+  ZKAP (Zero-Knowledge Audit Protocol) is a cryptographic
+  enforcement protocol for verifiable regulatory compliance of
+  machine-learning inference. It couples each ML inference with
+  a zero-knowledge proof of constraint satisfaction such that
+  the output of a non-compliant inference is physically
+  prevented from leaving the system. Based on two principal
+  constructions — the Certified Stack with RootHash, and
+  prove-before-output enforcement in four embodiments — and
+  three supporting mechanisms (authority-signed formal
+  constraints, per-inference hash chain with external
+  anchoring, three-party cryptographic protocol).
+keywords:
+  - zero-knowledge proofs
+  - verifiable machine learning
+  - AI regulation
+  - EU AI Act
+  - cryptographic compliance
+  - trusted execution environment
+  - certified stack
+  - prove-before-output
+version: "1.0"
+date-released: "2026-04-22"
+preferred-citation:
+  type: generic
+  title: "ZKAP: An Enforcement Protocol for Verifiable Regulatory Compliance of Machine-Learning Inference via Certified Stack Binding"
+  authors:
+    - family-names: Radoslavov
+      given-names: Radoslav Yordanov
+      orcid: "https://orcid.org/0009-0003-6868-8083"
+  year: 2026
+  month: 4
+  publisher:
+    name: Zenodo
+  doi: "10.5281/zenodo.19698949"
+  url: "https://doi.org/10.5281/zenodo.19698949"
+  notes: "Preprint, embargoed until 31 March 2027"
