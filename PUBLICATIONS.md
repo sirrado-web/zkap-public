@@ -31,6 +31,9 @@ EU AI Alliance — European Commission Futurium, 2 April 2026. [Community post](
 **Radoslavov, R.Y. (2026).** *After Mythos: Why Frontier AI Conformity Assessment Requires a Cryptographic Layer.*
 EU AI Alliance — European Commission Futurium, 18 April 2026. [Community post](https://futurium.ec.europa.eu/en/apply-ai-alliance/community-content/after-mythos-why-frontier-ai-conformity-assessment-requires-cryptographic-layer).
 
+**Radoslavov, R.Y. (2026).** *ZKAP — Zero-Knowledge Audit Protocol: Reconciling AI Act Transparency, GDPR Privacy and Trade Secrets through Cryptography.*
+LinkedIn Pulse, 29 April 2026. [Article](https://www.linkedin.com/pulse/zkap-zero-knowledge-audit-protocol-reconciling-ai-act-radoslavov-9wqef/).
+
 ## Patent applications
 
 **BG/P/2026/114317** — *Method and system for cryptographically bound inference execution in machine learning models with automatic generation of zero-knowledge proofs over formalised constraints.*
@@ -50,13 +53,21 @@ Status: filed, signed, fee paid (529.99 BGN).
 
 In preparation; Paris Convention priority window: 30 March 2027 (BG1-priority elements) and 12 April 2027 (BG2-priority elements).
 
+## Working paper — SSRN
+
+**Radoslavov, R.Y. (2026).** *ZKAP — Zero-Knowledge Audit Protocol: Reconciling AI Act Transparency, GDPR Privacy and Trade Secrets through Cryptography (Solo edition v3.1).*
+SSRN preprint, submitted 23 April 2026. Abstract ID: **6634698**. Author ID: **11282848**.
+[Author page on SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11282848)
+
 ## Identifiers
 
 - **ORCID:** [0009-0003-6868-8083](https://orcid.org/0009-0003-6868-8083)
-- **ResearchGate profile:** see publication links above
-- **Google Scholar:** profile in preparation
+- **Google Scholar:** [verified profile, user S2-iyH4AAAAJ](https://scholar.google.com/citations?user=S2-iyH4AAAAJ&hl=en)
+- **SSRN:** [Author 11282848](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11282848)
+- **LinkedIn:** [linkedin.com/in/radoslavov-zkap](https://www.linkedin.com/in/radoslavov-zkap)
+- **ResearchGate:** [profile Radoslav-Radoslavov](https://www.researchgate.net/profile/Radoslav-Radoslavov)
 - **Zenodo creator ID:** Radoslavov, Radoslav Yordanov
 
 ---
 
-*Last updated: 22 April 2026.*
+*Last updated: 30 April 2026.*

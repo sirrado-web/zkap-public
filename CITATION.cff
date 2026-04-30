@@ -9,7 +9,7 @@ authors:
     affiliation: "Advanced Consulting London"
     email: zkap@advanced-consulting.london
 license: CC-BY-4.0
-repository-code: "https://github.com/[USERNAME]/zkap-public"
+repository-code: "https://github.com/sirrado-web/zkap-public"
 url: "https://advanced-consulting.london"
 abstract: >-
   ZKAP (Zero-Knowledge Audit Protocol) is a cryptographic

@@ -14,9 +14,9 @@
 
 ## What is ZKAP?
 
-**ZKAP (Zero-Knowledge Audit Protocol)** is a cryptographic enforcement protocol for verifiable regulatory compliance of machine-learning inference. It couples each ML inference with a zero-knowledge proof of constraint satisfaction — such that **the output of a non-compliant inference is physically prevented from leaving the system** rather than attested after the fact.
+**ZKAP (Zero-Knowledge Audit Protocol)** is a cryptographic enforcement protocol for verifiable regulatory compliance of machine-learning inference, designed primarily to address the structural conflict between **EU AI Act (Regulation 2024/1689)** transparency duties (Articles 12–15), **GDPR** data-protection obligations, and **trade-secret** law. It couples each ML inference with a zero-knowledge proof of constraint satisfaction — such that **the output of a non-compliant inference is physically prevented from leaving the system** rather than attested after the fact.
 
-This is a paradigm shift from the *attestation pattern* that dominates current zero-knowledge machine-learning (ZKML) literature (e.g. RISC Zero, EZKL, zkLLM, ZKMLOps) to an *enforcement pattern* grounded in a Certified Stack construction, authority-signed polynomial constraints, and hardware- or syscall-level output gating.
+This is a paradigm shift from the *attestation pattern* that dominates current zero-knowledge machine-learning literature to an *enforcement pattern* grounded in a Certified Stack construction, authority-signed polynomial constraints, and hardware- or syscall-level output gating. ZKAP is positioned as a foundational compliance layer for high-risk AI systems under the EU AI Act regime entering full enforcement on 2 August 2026.
 
 ## The two principal technical contributions
 
@@ -61,9 +61,9 @@ For workloads with hard real-time constraints, ZKAP provides **Mode 1A**: output
 | **PTBG202600000316742** | Software ZKAP — syscall-intercepting runtime with Certified Stack binding | 12 April 2026 | Filed at BPO |
 | **UK/EPO/PCT V6.0 PRECISE** | International application: three-independent-claim structure (Certified Stack, Pre-commitment Mode 1A, Transparency-Log Anchoring) | in preparation | Paris Convention window: 30 March 2027 (BG1) / 12 April 2027 (BG2) |
 
-## Related work and positioning
+## Positioning within the broader field
 
-ZKAP is positioned against, and complementary to, the **ZKMLOps framework** (Scaramuzza, Cordeiro Ferreira, Maia Suller, Quattrocchi, Tamburri, van den Heuvel — Tilburg University, Eindhoven University of Technology, Politecnico di Milano, University of Sannio, arXiv:2505.20136 and arXiv:2510.26576). ZKMLOps operates at the software-engineering / MLOps-lifecycle-integration layer; ZKAP operates at the cryptographic-enforcement-architecture layer. The two works address different aspects of the same broader problem and are positioned as **complementary** rather than competing contributions. For detailed prior-art relationship, see Section 2 and Appendix A of the Zenodo preprint.
+ZKAP differs from prior work in zero-knowledge machine learning by operating at the **cryptographic enforcement architecture** layer rather than at the software-engineering or MLOps-lifecycle-integration layer. Existing ZKML approaches (e.g. proof-of-correct-inference frameworks such as EZKL, RISC Zero zkVM, and zkLLM) primarily generate *attestations after the fact*; ZKAP physically gates the output before release. The protocol is designed for direct mapping to the procedural and substantive obligations of the EU AI Act (Articles 9, 10, 12–15, 17, 26, 50, 72), GDPR (Articles 5, 22, 25, 32), and the EU Trade Secrets Directive — making compliance verifiable to regulators without disclosing model weights, training data, or commercially sensitive constraints. For detailed prior-art relationship and a comparative architectural analysis, see Section 2 and Appendix A of the Zenodo preprint.
 
 ## Reference implementation
 
@@ -81,6 +81,11 @@ A working implementation is currently in development. An initial minimal proof-o
 - **Address:** 4 Atkinson Road, Royal Docks, London, E16 3LR, United Kingdom
 - **Email:** [zkap@advanced-consulting.london](mailto:zkap@advanced-consulting.london)
 - **Websites:** [advanced-consulting.london](https://advanced-consulting.london) | [radoslavov.bg](https://www.radoslavov.bg/)
+- **ORCID:** [0009-0003-6868-8083](https://orcid.org/0009-0003-6868-8083)
+- **Google Scholar:** [Radoslavov](https://scholar.google.com/citations?user=S2-iyH4AAAAJ&hl=en)
+- **LinkedIn:** [linkedin.com/in/radoslavov-zkap](https://www.linkedin.com/in/radoslavov-zkap)
+- **SSRN:** [Author 11282848](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11282848)
+- **ResearchGate:** [profile Radoslav-Radoslavov](https://www.researchgate.net/profile/Radoslav-Radoslavov)
 
 For licensing enquiries, institutional pilot-project proposals, or academic collaboration, please use the email above with subject line `[ZKAP]`.
 
@@ -104,7 +109,11 @@ If you reference ZKAP in a publication, please cite the Zenodo preprint:
 
 ## Acknowledgements
 
-This work builds upon the cumulative contributions of the zero-knowledge proof community, including the foundational work of Goldwasser, Micali and Rackoff (1985) on interactive proof systems, Groth (2016) on succinct arguments, the Halo2 and Nova proof-system families, the EZKL and RISC Zero engineering efforts, Kusner et al. (2017) on counterfactual fairness, and the Sigsum and Certificate Transparency transparency-log infrastructures. Specific references appear in the Zenodo preprint.
+This work builds upon the cumulative contributions of the zero-knowledge proof community, including the foundational work of Goldwasser, Micali and Rackoff (1985) on interactive proof systems, Groth (2016) on succinct arguments, the Halo2 and Nova proof-system families, Kusner et al. (2017) on counterfactual fairness, and the Sigsum and Certificate Transparency transparency-log infrastructures. Specific references appear in the Zenodo preprint.
+
+## Keywords
+
+EU AI Act compliance · Regulation 2024/1689 · GDPR · trade secrets · zero-knowledge proofs · zk-SNARK · R1CS · polynomialization of legal norms · Certified Stack · prove-before-output · cryptographic conformity assessment · trusted execution environment · TPM · SGX · SEV-SNP · TrustZone · Sigsum · Certificate Transparency · high-risk AI systems · regulatory enforcement · anti-corruption · public administration · Article 12 · Article 13 · Article 14 · Article 15 · conformity assessment
 
 ---
 
