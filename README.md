@@ -67,7 +67,14 @@ ZKAP differs from prior work in zero-knowledge machine learning by operating at 
 
 ## Reference implementation
 
-A working implementation is currently in development. An initial minimal proof-of-concept covering Embodiment D (syscall interception on Linux), authority signing of a small constraint set, RootHash computation over a toy Certified Stack, and Sigsum-anchored chain is planned for a later release. The current Zenodo preprint specifies the protocol at a level sufficient for independent reimplementation.
+A full working implementation is in development. The `examples/` directory contains four short Python files (Python 3.10+, no third-party dependencies) that illustrate the control flow of the protocol:
+
+- `examples/polynomial_constraints.py` covers the five-type constraint taxonomy and Constraint Authority binding.
+- `examples/roothash_computation.py` shows how the Certified Stack `RootHash(S) = H( H(M) || H(BIP) || H(R) || H(HW) )` is computed and why any component change invalidates prior proofs.
+- `examples/mode_1a_demo.py` walks through the pre-commitment workflow (PENDING release, asynchronous proof, reveal-after-proof status update).
+- `examples/embodiment_d_syscall_hook.py` simulates a software output gate that releases each payload only after verifying a proof bound to the pinned RootHash.
+
+The `zk_prove` and `zk_verify` calls in these files are deterministic stubs; production deployments plug in EZKL, Halo2, RISC Zero zkVM, or a comparable proving system, and a real attestation source (Intel TDX, AMD SEV-SNP, ARM TrustZone, NVIDIA Confidential Compute). The Zenodo preprint specifies the protocol at a level sufficient for full independent reimplementation.
 
 ## Licence
 
@@ -117,4 +124,4 @@ EU AI Act compliance · Regulation 2024/1689 · GDPR · trade secrets · zero-kn
 
 ---
 
-*This repository is a public information hub for ZKAP. No implementation code is currently published; see the "Reference implementation" section above.*
+*This repository is a public information hub for ZKAP. Protocol-level reference snippets in pure Python are provided in [`examples/`](./examples/) — see the "Reference implementation" section above for scope.*
